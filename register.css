@@ -1,15 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins, sans-serif';
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-image: url(backgroundd.jpg);
 }
 
 .container {
-    width: 300px;
+    width: 340px;
     margin: 100px auto;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
+    border-radius: 10px;
 }
 
 
@@ -17,6 +23,7 @@ body {
 h2 {
     margin-bottom: 20px;
     color: #333;
+    text-align: center;
 }
 
 label {
@@ -30,19 +37,22 @@ input[type="text"], input[type="email"], input[type="password"] {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    border-radius: 15px;
 }
 
 input[type="submit"] {
     width: 100%;
     padding: 10px;
-    background-color: #008DDA;
+    background-color: rgb(226, 116, 226);
     border: none;
     color: #fff;
     font-size: 16px;
+    border-radius: 15px;
+    margin-top: 8px;
 }
 
 input[type="submit"]:hover {
-    background-color: #5AB2FF;
+    background-color: rgb(240, 140, 240);
 }
 
 p {

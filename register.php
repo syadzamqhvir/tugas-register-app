@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "INSERT INTO users (Name, Email, Password) VALUES ('$user_username', '$user_email', '$user_password')";
 
     if ($conn->query($sql) === TRUE) {
-        echo "Registration successful! <a href='welcome.php'</a>";
+        echo "Registration successful! <a href='login.php'>Login here</a>";
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
